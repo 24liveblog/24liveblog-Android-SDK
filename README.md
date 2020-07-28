@@ -27,25 +27,25 @@ the 24liveblog SDK.
 Integrate the live blog in real time into your Android client applications with speed and efficiency.  Our SDK helps you focus on the client's implementation of initializing, configuring and displaying the live blog.
 
 ##### Title & Content
-![Complete](showcase/TitleAndContent.png)
+![Complete](showcase/TitleAndContent.jpg)
 
 ##### Poll
-![Poll](showcase/Poll.png)
+![Poll](showcase/Poll.jpg)
 
 ##### Card
-![Card](showcase/Card.png)
+![Card](showcase/Card.jpg)
 
 ##### QA
-![QA](showcase/QA.png)
+![QA](showcase/QA.jpg)
 
 ##### Social
-![Social](showcase/Social.png)
+![Social](showcase/Social.jpg)
 
 ##### Audio & Video
-![AudioAndVideo](showcase/AudioAndVideo.png)
+![AudioAndVideo](showcase/AudioAndVideo.jpg)
 
 ##### Sport
-![Sport](showcase/Sport.png)
+![Sport](showcase/Sport.jpg)
 
 
 #### Step 1: Install the Live Blog SDK

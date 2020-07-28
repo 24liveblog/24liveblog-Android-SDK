@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/24liveblog-SDK.iml" filepath="$PROJECT_DIR$/.idea/modules/24liveblog-SDK.iml" group="24liveblog-SDK" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sample.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sample.iml" group="24liveblog-SDK/sample" />
-    </modules>
-  </component>
-</project>
