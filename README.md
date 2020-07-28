@@ -6,7 +6,6 @@ Integrate live blog, analytics and real time data services into your Android cli
 - [Requirements](#requirements)
 - [Sample](#sample)
 - [LiveBlog](#liveblog)
-- [Analytics](#analytics)
 - [Getting Help](#help)
 - [License](#license)
 
