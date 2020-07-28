@@ -1,5 +1,5 @@
 # 24liveblog-Android-SDK
-Integrate live blog, analytics and real time data services into your Android client applications with speed and efficiency. Our Android SDK helps you focus on the client's implementation of booting, configuring live blog and sending events.
+Integrate live blog into your Android client applications with speed and efficiency. Our Android SDK helps you focus on the client's implementation of booting, configuring live blog and sending events.
 
 
 
@@ -13,7 +13,7 @@ Integrate live blog, analytics and real time data services into your Android cli
 # Requirements
  - **Minimum Android SDK**: 24liveblog Sdk requires a minimum API level of 21.
  - **Compile Android SDK**: 24liveblog Sdk requires you to compile against API 29 or later.
-
+ - **Java 8 support.
 
 <a name="sample"></a>
 # Sample
@@ -25,25 +25,27 @@ the 24liveblog SDK.
 # Liveblog
 
 Integrate the live blog in real time into your Android client applications with speed and efficiency.  Our SDK helps you focus on the client's implementation of initializing, configuring and displaying the live blog.
-Displays all card types in live blog format. We currently support the following cards:
 
-##### Title And Content
-![Complete](showcase/TitleAndDescrption.png)
+##### Title & Content
+![Complete](showcase/TitleAndContent.png)
 
-##### Pinned
-![Pinned](showcase/Pinned.png)
-
-##### Player/Person
-![PlayerAndPerson](showcase/PlayerAndPerson.png)
+##### Poll
+![Poll](showcase/Poll.png)
 
 ##### Card
 ![Card](showcase/Card.png)
 
+##### QA
+![QA](showcase/QA.png)
+
 ##### Social
 ![Social](showcase/Social.png)
 
-##### Video
-![Video](showcase/Video.png)
+##### Audio & Video
+![AudioAndVideo](showcase/AudioAndVideo.png)
+
+##### Sport
+![Sport](showcase/Sport.png)
 
 
 #### Step 1: Install the Live Blog SDK
@@ -51,8 +53,13 @@ Displays all card types in live blog format. We currently support the following 
 Installing the Live Blog SDK is simple if you’re familiar with using external libraries or SDKs. To install the Live Blog SDK using `Gradle`, add the following lines to a `build.gradle` file at the app level.
 
 ```groovy
-repositories {
-    jcenter()
+android {
+    // ...
+    // Keep the following configuration in order to target Java 8.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -82,7 +89,7 @@ LiveBlog liveBlog = findViewById(R.id.live_blog);
 liveBlog.setEvent(EVENT_ID);
 ```
 
-*  `EVENT_ID`: Live blog identifier
+*  `EVENT_ID`: Live blog event identifier
 
 
 <a name="help"></a>
