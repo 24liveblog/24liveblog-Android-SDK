@@ -30,7 +30,7 @@ Integrate the live blog in real time into your Android client applications with 
 ![Complete](showcase/TitleAndContent.jpg)
 
 ##### Poll
-![Poll](showcase/Poll.jpg)
+![Poll](showcase/Poll.jpg){:width="50%"}
 
 ##### Card
 ![Card](showcase/Card.jpg)
