@@ -63,7 +63,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.24liveblog:liveblog:1.0.0'
+    implementation 'com.24liveblog:liveblog:1.1.0'
 }
 ````
 
